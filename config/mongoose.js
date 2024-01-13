@@ -4,6 +4,7 @@ mongoose.connect(
   "mongodb+srv://nitishnashine:nitish@ecom.xtzwom7.mongodb.net/?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
   }
 );
 
